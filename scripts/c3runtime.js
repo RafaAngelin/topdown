@@ -4822,9 +4822,11 @@ self.C3_ExpressionFuncs = [
 			const n0 = p._GetNode(0);
 			return () => n0.ExpInstVar();
 		},
+		() => 2,
 		() => 0,
 		() => "abrindo",
 		() => 1,
+		() => "Parabéns você encontrou o tesouro!",
 		() => "GAME OVER"
 ];
 

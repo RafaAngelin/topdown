@@ -18,14 +18,15 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetMirrored,
 		C3.Plugins.System.Cnds.EveryTick,
 		C3.Plugins.Sprite.Acts.SetAnim,
-		C3.Plugins.Sprite.Cnds.OnCollision,
-		C3.Plugins.System.Acts.Wait,
+		C3.Plugins.System.Cnds.OnLayoutStart,
 		C3.Plugins.Sprite.Acts.SetVisible,
+		C3.Plugins.Text.Acts.SetVisible,
+		C3.Plugins.System.Acts.Wait,
+		C3.Plugins.Sprite.Cnds.OnCollision,
 		C3.Plugins.Sprite.Acts.SetCollisions,
 		C3.Plugins.Sprite.Acts.Destroy,
-		C3.Plugins.Text.Acts.SetVisible,
-		C3.Behaviors.Follow.Acts.FollowObject,
-		C3.Plugins.Text.Acts.SetText
+		C3.Plugins.Text.Acts.SetText,
+		C3.Behaviors.Follow.Acts.FollowObject
 	];
 };
 self.C3_JsPropNameTable = [
